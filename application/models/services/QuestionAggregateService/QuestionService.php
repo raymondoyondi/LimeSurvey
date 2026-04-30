@@ -322,7 +322,6 @@ class QuestionService
                 LimeExpressionManager::UpgradeConditionsToRelevance(null, $dependentQuestionId);
             }
         }
-        
         // If relevance equation was manually edited,
         // existing conditions must be cleared
         if (
