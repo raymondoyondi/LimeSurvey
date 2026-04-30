@@ -364,7 +364,6 @@ class QuestionService
             LimeExpressionManager::UpgradeConditionsToRelevance(null, $dependentQuestionId);
         }
     }
-    
     /**
      * Save defaults
      */
