@@ -285,7 +285,6 @@ class QuestionService
 
         $originalRelevance = $question->relevance;
         $originalTitle = $question->title;
-        
         if ($question->type !== ($data['type'] ?? $question->type)) {
             $answers = Answer::model()->findAll('qid = :qid', [':qid' => $question->qid]);
             $qids = [];
